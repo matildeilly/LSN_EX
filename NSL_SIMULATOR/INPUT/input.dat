@@ -1,0 +1,58 @@
+SIMULATION_TYPE        0		
+RESTART                0
+TEMP                   1.98
+GOAL_TEMP              1.1
+NPART                  108
+RHO                    0.8
+R_CUT                  2.5
+DELTA                  0.0005
+NBLOCKS                20
+NSTEPS                 2000
+
+ENDINPUT
+
+DELTA (ESERCITAZIONE 7):
+    -solid:     0.055
+    -liquid:    0.1
+    -gas:       2.5 (poco importa perchè è la fase gassosa: tende ad accettare più spesso 
+                        (le configurazioni non accettabili sono poche rispetto agli altri casi!))
+
+
+
+/*ESERCITAZIONE 4 INPUT:
+-SOLID:
+SIMULATION_TYPE        0
+RESTART                0
+TEMP                   1.5435
+GOAL_TEMP              0.8
+NPART                  108
+RHO                    1.1
+R_CUT                  2.2
+DELTA                  0.0005
+NBLOCKS                10
+NSTEPS                 1000
+
+-LIQUID:
+SIMULATION_TYPE        0
+RESTART                0
+TEMP                   1.98
+GOAL_TEMP              1.1
+NPART                  108
+RHO                    0.8
+R_CUT                  2.5
+DELTA                  0.0005
+NBLOCKS                10
+NSTEPS                 1000
+
+-GAS:
+SIMULATION_TYPE        0
+RESTART                0
+TEMP                   0.97855
+GOAL_TEMP              1.2
+NPART                  108
+RHO                    0.05
+R_CUT                  5.0
+DELTA                  0.0005
+NBLOCKS                10
+NSTEPS                 1000
+*/
